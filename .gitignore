@@ -1,7 +1,8 @@
+Add-Content -Path ".gitignore" -Value @"
 # Python
 __pycache__/
 *.py[cod]
-*.class
+*$py.class
 
 # Virtual Environment
 venv/
@@ -22,3 +23,4 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+"@
